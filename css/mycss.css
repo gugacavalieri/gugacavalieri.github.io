@@ -1,0 +1,159 @@
+.titleHashtag {
+	font-size: 2.0em;
+}
+
+.page {
+	min-height: 100vh;
+}
+
+.center-vertical {
+	margin-top: 25vh;
+}
+
+.bigText {
+	font-size: 4em;
+}
+
+.mediumText {
+	font-size: 3em;
+}
+
+.smallText {
+	font-size: 2em;
+}
+
+.bigMarginTop {
+	margin-top: 10%;
+}
+
+.bigMarginBottom {
+	margin-bottom: 10%;
+}
+
+.bigMargin {
+	margin: 10%;
+}
+
+.mediumMargin {
+	margin: 5%;
+}
+
+.smallMargin {
+	margin: 2%;
+}
+
+.mediumMarginTop {
+	margin-top: 5%;
+}
+
+.mediumMarginBottom {
+	margin-bottom: 5%;
+}
+
+.colorOrange {
+	color: #ed7812;
+}
+
+.primaryColor {
+	color: #4DCCAA;
+}
+
+.colorWhite {
+	color: #fff;
+}
+
+.secondaryColor {
+	color: #000;
+}
+
+.text-color-black {
+	color: #000;
+}
+
+.text-color-white {
+	color: #fff;
+}
+
+.bgMainColor {
+/*	background-color: #4F7DB1;*/
+/*	background-color: #32E89F;*/
+	background-color: #FF8C25;
+}
+
+a.nounderline {
+	text-decoration: none;
+}
+
+.projectImage {
+	height: 250px !important;
+}
+
+.marginBottom {
+	margin-bottom: 100px;
+}
+
+.bgColorOrange {
+	background-color: #ed7812;
+}
+
+.bgColorGray {
+	background-color: #fAfAfA;
+}
+
+.customFont {
+/*
+	font-family: 'Raleway', sans-serif;
+*/
+	font-family: 'Dosis', sans-serif;
+}
+
+.colorBlue {
+	color: #407ad1;
+}
+
+.colorGray {
+	color: #919191;
+}
+
+.colorBlack {
+	color: #000;
+}
+
+.socialButton {
+	width: 32px;
+	height: 32px;
+}
+
+.titleName {
+	font-style: bold;
+}
+
+.horizontalLineGray {
+	background: #9e948c;
+    height: 1px;
+}
+
+.horizontalLineWhite {
+	background: #fff;
+    height: 2px;
+}
+
+.back-top {
+	position: fixed;
+	z-index: 100;
+	bottom: 10px;
+	right: 20px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.margin-left {
+	margin-left: 1%;
+}
+
+.my-progress-bar {
+	width: 50%;
+}
