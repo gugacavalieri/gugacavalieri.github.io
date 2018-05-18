@@ -157,3 +157,15 @@ a.nounderline {
 .my-progress-bar {
 	width: 50%;
 }
+
+a {
+	color: #666;
+}
+
+a:hover, a:active {
+	color: #FF8C25;
+}
+
+.color-gray {
+	color: #666;
+}
