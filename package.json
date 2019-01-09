@@ -1,0 +1,31 @@
+{
+  "name": "gugacavalieri.github.io",
+  "version": "1.0.0",
+  "description": "my website :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugacavalieri/gugacavalieri.github.io.git"
+  },
+  "keywords": [
+    "guga",
+    "cavalieri",
+    "website"
+  ],
+  "author": "Guga Cavalieri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gugacavalieri/gugacavalieri.github.io/issues"
+  },
+  "homepage": "https://github.com/gugacavalieri/gugacavalieri.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.1.0"
+  }
+}
