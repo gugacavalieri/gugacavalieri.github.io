@@ -1,104 +1,133 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "imagebaseurl":"https://gugacavalieri.github.io/",
+    "name": "Gustavo Cavalieri",
+    "role": "Full-Stack Developer",
+    "linkedinId":"gcavalieri",
+    "skypeid": "",
+    "roleDescription": "Hi! I am a full-stack developer who loves to write lean and minimalist code. Right now I am working with a lot of DevOps stuff and doing some music gigs when I have the time :)",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/gcavalieri/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/gugacavalieri",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"twitter",
+          "url":"http://twitter.com/gugacavalieri",
           "className":"fa fa-twitter"
+        },
+        {
+          "name":"dev.to",
+          "url":"https://dev.to/gugacavalieri",
+          "className":"fa fa-book"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"computer science graduate at universidade federal de minas gerais, brazil and university of alberta, canada. linux and open-source software enthusiast loves music and everything that comes with it.",
+    "address":"Brazil",
+    "website":"https://gugacavalieri.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Universidade Federal de Minas Gerais (UFMG)",
+        "specialization":"Computer Science",
+        "MonthOfPassing":"June",
+        "YearOfPassing":"2015",
+        "Achievements":""
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Alberta, Canada",
+        "specialization":"Computer Science - Exchange Student",
+        "MonthOfPassing":"Jan - Dec |",
+        "YearOfPassing":"2013",
+        "Achievements":""
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Hotmart",
+        "specialization":"Software engineer",
+        "fromDate":"June 2018",
+        "toDate":"Present",
+        "Achievements": [
+          "Docker, DevOps, Terraform, AWS",
+          "NodeJS, Fastify, AWS Lambdas, Styker Mutation Testing",
+          "Java, Kotlin, Spring Boot Microservices",
+          "MySQL, PostgreSQL, MongoDB"
+        ]
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"EuNeném",
+        "specialization":"Co-Founder",
+        "fromDate":"Oct 2015",
+        "toDate":"Dec 2018",
+        "Achievements": [
+          "Full Stack Web Developer",
+          "PHP, Vagrant, Code Igniter framework",
+          "HTML, Bootstrap, AngularJS",
+          "A/B Testing, Mixpanel and Data Analytics"
+        ]
+      },
+      {
+        "CompanyName":"Ecomova",
+        "specialization":"Android Engineer",
+        "fromDate":"Nov 2016",
+        "toDate":"Mar 2018",
+        "Achievements": [
+          "Carpooling App for University Students",
+          "Android  SDK, Firebase, Google Cloud, Pub/Sub Arch",
+          "Firebase Cloud Functions JS",
+          "TDD and Reactive oriented (RxJava, Mockito, Robolectric)"
+        ]
+      },
+      {
+        "CompanyName":"GetSet",
+        "specialization":"Full-Stack Developer",
+        "fromDate":"Jul 2015",
+        "toDate":"Oct 2015",
+        "Achievements": [
+          "Laravel API",
+          "Android  SDK"
+        ]
+      },
+      {
+        "CompanyName":"Luar - UFMG",
+        "specialization":"Intern Java EE Developer",
+        "fromDate":"Feb 2014",
+        "toDate":"June 2015",
+        "Achievements": [
+          "Controlling and automating clinical and laboratory machines over remote networks.",
+          "Java EE",
+          "MySQL, Hibernate",
+          "Sockets"
+        ]
+      },
+      {
+        "CompanyName":"University of Alberta",
+        "specialization":"Intern Java Developer",
+        "fromDate":"May 2013",
+        "toDate":"Aug 2013",
+        "Achievements": [
+          "Integrated webservices to natural language processing tools and document-oriented database."
+        ]
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"Back-end stuff (NodeJS, Springboot, Lambda)",
+        "progress": 95
       },
       {
-        "skillname":"CSS"
+        "skillname":"DevOps (Docker, Terraform, AWS)",
+        "progress": 85
       },
       {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "skillname":"Front-end stuff (HTML, CSS, ReactJS, Bulma)",
+        "progress": 60
       }
     ]
   }

@@ -3,9 +3,10 @@ export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <footer>
+      <footer id="footer">
       <div className="row">
         <div className="twelve columns">
+          <h2 className="text-white">Find me on:</h2>
           <ul className="social-links">
             {
               resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
