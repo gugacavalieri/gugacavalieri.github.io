@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Full-Stack Developer",
     "linkedinId":"gcavalieri",
     "skypeid": "",
-    "roleDescription": "Hi! I am a full-stack developer who loves to write lean and minimalist code. Right now I am working with a lot of DevOps stuff and doing some music gigs when I have the time :)",
+    "roleDescription": "Hi! I am a full-stack developer who loves to write lean and minimalist code. Right now I am working with a lot of DevOps stuff and doing some music in my free time :)",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -118,7 +118,7 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
-        "skillname":"Back-end stuff (NodeJS, Springboot, Lambda)",
+        "skillname":"Back-end stuff (NodeJS, Springboot, Lambda, keep going ...)",
         "progress": 95
       },
       {
