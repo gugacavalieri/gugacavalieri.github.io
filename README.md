@@ -7,3 +7,4 @@ My website :)
 * [ ] Remove JQuery and other JS Libs
 * [ ] Migrate to Preact (Small bundle, yeayyy)
 * [ ] Beautify React components
+* [ ] Update font awesome
