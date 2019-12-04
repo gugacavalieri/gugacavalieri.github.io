@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -13,7 +15,7 @@ export default class Footer extends Component {
                 return(
                   <li key={item.url}>
                     <a href={item.url}>
-                    <i className={item.className} />
+                    <FontAwesomeIcon icon={['fab', item.iconClass]} />
                     </a>
                   </li>
                 )
@@ -23,7 +25,9 @@ export default class Footer extends Component {
           
         </div>
         <div id="go-top">
-          <a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a>
+          <a className="smoothscroll" title="Back to Top" href="#home">
+            <FontAwesomeIcon icon={['fas', 'chevron-up']}/>
+          </a>
         </div>
         <em className="text-white small-text">no animals were harmed while making this website (:</em>
       </div>

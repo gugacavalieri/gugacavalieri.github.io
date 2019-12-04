@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -29,7 +31,9 @@ export default class Header extends Component {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                <a href={item.url} target="_blank">
+                                  <FontAwesomeIcon icon={['fab', item.iconClass]} />
+                                  </a>
                               </li>
                             )
                           }
@@ -40,7 +44,9 @@ export default class Header extends Component {
          </div>
 
          <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+            <a className="smoothscroll" href="#about">
+              <FontAwesomeIcon icon={['fas', 'chevron-circle-down']} />
+            </a>
          </p>
 
       </header>

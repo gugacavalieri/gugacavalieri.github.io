@@ -9,22 +9,22 @@ let resumeData = {
         {
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/gcavalieri/",
-          "className":"fa fa-linkedin"
+          "iconClass":"linkedin"
         },
         {
           "name":"github",
           "url":"http://github.com/gugacavalieri",
-          "className":"fa fa-github"
+          "iconClass":"github"
         },
         {
           "name":"twitter",
           "url":"http://twitter.com/gugacavalieri",
-          "className":"fa fa-twitter"
+          "iconClass":"twitter"
         },
         {
           "name":"dev.to",
           "url":"https://dev.to/gugacavalieri",
-          "className":"fa fa-book"
+          "iconClass":"dev"
         }
       ],
     "aboutme":"Computer Science graduate at Universidade Federal de Minas Gerais, Brazil and University of Alberta, Canada. Linux and open-source software enthusiast. Loves music and everything that comes with it.",
