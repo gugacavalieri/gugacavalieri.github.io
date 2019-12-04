@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Full-Stack Developer",
     "linkedinId":"gcavalieri",
     "skypeid": "",
-    "roleDescription": "Hi! I am a full-stack developer who loves to write lean and minimalist code. Right now I am working with a lot of DevOps stuff and doing some music in my free time :)",
+    "roleDescription": "Hi! I am a full-stack developer who loves to hack something new everyday. Right now I am working with a lot of DevOps stuff and doing some music in my free time :)",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -27,7 +27,7 @@ let resumeData = {
           "className":"fa fa-book"
         }
       ],
-    "aboutme":"computer science graduate at universidade federal de minas gerais, brazil and university of alberta, canada. linux and open-source software enthusiast loves music and everything that comes with it.",
+    "aboutme":"Computer Science graduate at Universidade Federal de Minas Gerais, Brazil and University of Alberta, Canada. Linux and open-source software enthusiast. Loves music and everything that comes with it.",
     "address":"Brazil",
     "website":"https://gugacavalieri.github.io",
     "education":[
@@ -53,10 +53,14 @@ let resumeData = {
         "fromDate":"June 2018",
         "toDate":"Present",
         "Achievements": [
-          "Docker, DevOps, Terraform, AWS",
-          "NodeJS, Fastify, AWS Lambdas, Styker Mutation Testing",
-          "Java, Kotlin, Spring Boot Microservices",
-          "MySQL, PostgreSQL, MongoDB"
+          "Currently working here as a Software Engineer and doing a lot of DevOps demands",
+          "Docker, DevOps, Terraform",
+          "Java, Kotlin, Spring Boot Microservice",
+          "NodeJS, Express and Fastify back-end",
+          "AWS Stack: Lambdas, S3, ECS, ECR, EC2, EKS, SQS, SNS",
+          "Code Quality and Mutation Testing",
+          "Databases: MySQL, PostgreSQL, MongoDB",
+          "Front-end: ReactJS, Meteor"
         ]
       },
       {
@@ -65,10 +69,13 @@ let resumeData = {
         "fromDate":"Oct 2015",
         "toDate":"Dec 2018",
         "Achievements": [
-          "Full Stack Web Developer",
+          "Being part of Startup Chile, worked as a Full-Stack Web Developer",
+          "Lots of A/B Testing to increase signups and conversion using Mixpanel and Data Analytics",
+          "Optimized Website page load using GTMetrix, Google Page Insights and GruntJS.",
           "PHP, Vagrant, Code Igniter framework",
-          "HTML, Bootstrap, AngularJS",
-          "A/B Testing, Mixpanel and Data Analytics"
+          "HTML, CSS Bootstrap, JQuery, AngularJS",
+          "Database migrations",
+          "AWS Stack: RDS, EC2, S3, SQS"
         ]
       },
       {
@@ -77,10 +84,11 @@ let resumeData = {
         "fromDate":"Nov 2016",
         "toDate":"Mar 2018",
         "Achievements": [
-          "Carpooling App for University Students",
+          "Built a carpooling app for university students",
           "Android  SDK, Firebase, Google Cloud, Pub/Sub Arch",
           "Firebase Cloud Functions JS",
-          "TDD and Reactive oriented (RxJava, Mockito, Robolectric)"
+          "TDD and Reactive oriented (RxJava, Mockito, Robolectric)",
+          "Done a lot of A/B testing using Firebase Remote Config and A/B testing tool"
         ]
       },
       {
