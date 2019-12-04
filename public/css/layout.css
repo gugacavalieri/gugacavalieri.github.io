@@ -346,6 +346,7 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
+   animation: css 2s ease;
 }
 
 @-moz-keyframes css {
@@ -355,6 +356,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes css {
   0%   { transform: scaleX(0);  }
+  100% { transform: scaleX(1);  }
+}
+
+@keyframes css {
+   0%  { transform: scaleX(0);  }
   100% { transform: scaleX(1);  }
 }
 
@@ -437,7 +443,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
