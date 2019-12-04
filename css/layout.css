@@ -31,6 +31,10 @@
    font-size: 10px;
 }
 
+.font-11 {
+   font-size: 11px;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* a. General Styles
@@ -320,7 +324,7 @@ ul#nav li.current a { color: #F06000; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 11px 'opensans-bold', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -342,6 +346,7 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
    -moz-animation: css 2s ease;
    -webkit-animation: css 2s ease;
+   animation: css 2s ease;
 }
 
 @-moz-keyframes css {
@@ -351,6 +356,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes css {
   0%   { transform: scaleX(0);  }
+  100% { transform: scaleX(1);  }
+}
+
+@keyframes css {
+   0%  { transform: scaleX(0);  }
   100% { transform: scaleX(1);  }
 }
 
@@ -433,7 +443,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
@@ -551,8 +561,8 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: white; }
+footer a:hover, footer a:focus { color: var(--main-color); }
 
 /* copyright */
 footer .copyright {
