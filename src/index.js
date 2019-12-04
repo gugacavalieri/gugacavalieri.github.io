@@ -11,7 +11,7 @@ import { faChevronCircleDown, faChevronUp } from '@fortawesome/free-solid-svg-ic
 library.add(faLinkedin, faTwitter, faDev, faGithub, faChevronCircleDown, faChevronUp);
 
 /* leave a nice message to visitors */
-console.log("%cI knew you would come in here!", "color: #F06000;  font-size: 4.5em; font-weight: bolder; text-shadow: #000 1px 1px;");
+console.log("%cI knew you would come in here! :)", "color: #F06000;  font-size: 4.5em; font-weight: bolder; text-shadow: #000 1px 1px;");
 console.log("%cFeel free to check Dev.to posts at: https://dev.to/gugacavalieri", "color: #F06000;  font-size: 1.5em; font-weight: bolder; text-shadow: #000 1px 1px;")
 
 ReactDOM.render(<App />, document.getElementById('root'));

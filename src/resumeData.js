@@ -97,8 +97,9 @@ let resumeData = {
         "fromDate":"Jul 2015",
         "toDate":"Oct 2015",
         "Achievements": [
-          "Laravel API",
-          "Android  SDK"
+          "Developed a wide range of Android mobile applications and web services using native Android, PHP and Laravel framework",
+          "Laravel, PHP in the back-end",
+          "Android  SDK for mobile development"
         ]
       },
       {
