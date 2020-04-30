@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://gugacavalieri.github.io/",
     "name": "Gustavo Cavalieri",
-    "role": "Full-Stack Developer",
+    "role": "Software Engineer",
     "linkedinId":"gcavalieri",
     "skypeid": "",
-    "roleDescription": "Hi! I am a full-stack developer who loves to hack something new everyday. Right now I am working with a lot of DevOps stuff and doing some music in my free time :)",
+    "roleDescription": "Hi! I am a software engineer who loves to hack something new everyday. Right now I am working with a lot of DevOps stuff and doing some music in my free time :)",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -20,6 +20,11 @@ let resumeData = {
           "name":"twitter",
           "url":"http://twitter.com/gugacavalieri",
           "iconClass":"twitter"
+        },
+        {
+          "name":"Instagram",
+          "url":"https://instagram.com/guga_cavalieri",
+          "iconClass":"instagram"
         },
         {
           "name":"dev.to",

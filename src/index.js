@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLinkedin, faTwitter, faDev, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faTwitter, faDev, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faChevronCircleDown, faChevronUp } from '@fortawesome/free-solid-svg-icons'
-library.add(faLinkedin, faTwitter, faDev, faGithub, faChevronCircleDown, faChevronUp);
+library.add(faLinkedin, faTwitter, faDev, faGithub, faChevronCircleDown, faChevronUp, faInstagram);
 
 /* leave a nice message to visitors */
 console.log("%cI knew you would come in here! :)", "color: #F06000;  font-size: 4.5em; font-weight: bolder; text-shadow: #000 1px 1px;");
