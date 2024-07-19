@@ -4,14 +4,15 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
+        <Header resumeData={resumeData} />
+        <About resumeData={resumeData} />
+        <Resume resumeData={resumeData} />
+        <Footer resumeData={resumeData} />
       </div>
     );
   }
