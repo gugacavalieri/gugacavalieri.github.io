@@ -1,0 +1,28 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Run Tests
+
+on:
+  push:
+    branches: ["**"]
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          
+      - run: npm install
+
+      - run: npm run lint
+
+      - run: npm run test
