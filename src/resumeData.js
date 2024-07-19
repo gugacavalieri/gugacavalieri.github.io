@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://gugacavalieri.github.io/",
     "name": "Gustavo Cavalieri",
-    "role": "Software Engineer",
+    "role": "Site Reliability Engineer",
     "linkedinId":"gcavalieri",
     "skypeid": "",
-    "roleDescription": "Hi! I am a software engineer who loves to hack something new everyday. Right now I am working with a lot of DevOps stuff and doing some music in my free time :)",
+    "roleDescription": "Hi! I am a Site Reliability Engineer who loves to hack something new everyday. Right now I am managing a Team of SRE's, making sure Kudos' platform is stable and realiable and doing some music in my free time :)",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -53,12 +53,26 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Kudos Inc.",
+        "specialization":"Developer - Site Reliability Engineer - SRE Manager",
+        "fromDate":"May 2020",
+        "toDate":"Present",
+        "description": "Currently working here as a SRE Manager and making sure the platform is stable and realiable.",
+        "Achievements": [
+          "Docker, Terraform, IaC, Helm, Kubernetes",
+          "AWS Stack: EKS, Lambdas, S3, ECR, SNS",
+          "Platform Reliability and Observability",
+          "Incident Management",
+          "IaC Security Automation and SOC2 Audit",
+        ]
+      },
+      {
         "CompanyName":"Hotmart",
         "specialization":"Software engineer",
         "fromDate":"June 2018",
-        "toDate":"Present",
+        "toDate":"May 2020",
+        "description": "Had a blast working here as a Software Engineer and also filling a lot of DevOps demands",
         "Achievements": [
-          "Currently working here as a Software Engineer and doing a lot of DevOps demands",
           "Docker, DevOps, Terraform",
           "Java, Kotlin, Spring Boot Microservice",
           "NodeJS, Express and Fastify back-end",
@@ -73,8 +87,8 @@ let resumeData = {
         "specialization":"Co-Founder",
         "fromDate":"Oct 2015",
         "toDate":"Dec 2018",
+        "description": "Being part of Startup Chile, worked as a Full-Stack Web Developer",
         "Achievements": [
-          "Being part of Startup Chile, worked as a Full-Stack Web Developer",
           "Lots of A/B Testing to increase signups and conversion using Mixpanel and Data Analytics",
           "Optimized Website page load using GTMetrix, Google Page Insights and GruntJS.",
           "PHP, Vagrant, Code Igniter framework",
@@ -88,6 +102,7 @@ let resumeData = {
         "specialization":"Android Engineer",
         "fromDate":"Nov 2016",
         "toDate":"Mar 2018",
+        "description": "Worked here as an Android Developer to build a new app :)",
         "Achievements": [
           "Built a carpooling app for university students",
           "Android  SDK, Firebase, Google Cloud, Pub/Sub Arch",
@@ -101,6 +116,7 @@ let resumeData = {
         "specialization":"Full-Stack Developer",
         "fromDate":"Jul 2015",
         "toDate":"Oct 2015",
+        "description": "Worked here as an Android Developer to build and maintain apps",
         "Achievements": [
           "Developed a wide range of Android mobile applications and web services using native Android, PHP and Laravel framework",
           "Laravel, PHP in the back-end",
@@ -112,6 +128,7 @@ let resumeData = {
         "specialization":"Intern Java EE Developer",
         "fromDate":"Feb 2014",
         "toDate":"June 2015",
+        "description": "Worked here as undergraduate researcher on a project to automate clinical and laboratory machines",
         "Achievements": [
           "Controlling and automating clinical and laboratory machines over remote networks.",
           "Java EE",
@@ -124,6 +141,7 @@ let resumeData = {
         "specialization":"Intern Java Developer",
         "fromDate":"May 2013",
         "toDate":"Aug 2013",
+        "description": "Summer Intern",
         "Achievements": [
           "Integrated webservices to natural language processing tools and document-oriented database."
         ]
@@ -132,16 +150,24 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
-        "skillname":"Back-end stuff (NodeJS, Springboot, Lambda, keep going ...)",
-        "progress": 95
+        "skillname":"NodeJS, Express, PostgreSQL, Redis, MySQL",
+        "progress": 100,
+        "years": "6+"
       },
       {
-        "skillname":"DevOps (Docker, Terraform, AWS)",
-        "progress": 85
+        "skillname":"Docker, Terraform, AWS, Kubernetes, IaC, CI/CD Automation",
+        "progress": 90,
+        "years": "5+"
       },
       {
-        "skillname":"Front-end stuff (HTML, CSS, ReactJS, Bulma)",
-        "progress": 60
+        "skillname":"IaC Security Automation, FinOps, Incident management",
+        "progress": 60,
+        "years": "2+"
+      },
+      {
+        "skillname":"SRE Management",
+        "progress": 40,
+        "years": "1+"
       }
     ]
   }
