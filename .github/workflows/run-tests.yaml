@@ -5,10 +5,6 @@ on:
   push:
     branches: ["**"]
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   Test:
     runs-on: ubuntu-latest
