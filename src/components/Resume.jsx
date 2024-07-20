@@ -77,7 +77,7 @@ export default class Resume extends Component {
         <div className="row skill">
 
           <div className="three columns header-col">
-            <h1><span>Love to work with</span></h1>
+            <h1><span>My Toolbox</span></h1>
           </div>
 
           <div className="nine columns main-col">
@@ -92,9 +92,8 @@ export default class Resume extends Component {
                       <span className="skill-bar" style={{ width: `${item.progress}%` }} />
                       <em>
                         <b>
-                          {item.years}
-                          {' '}
-                          Years:
+                          {item.proficiency}
+                          {' :'}
                         </b>
                         {' '}
                         {item.skillname}

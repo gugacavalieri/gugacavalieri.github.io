@@ -27,7 +27,7 @@ export default class Footer extends Component {
               <FontAwesomeIcon icon={['fas', 'chevron-up']} />
             </a>
           </div>
-          <em className="text-white">Made with React and deployed using actions 🧡</em>
+          <em className="text-white">Made with React and fully deployed using robots 🧡</em>
         </div>
       </footer>
     );

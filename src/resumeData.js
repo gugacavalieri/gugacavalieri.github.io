@@ -37,7 +37,7 @@ const resumeData = {
   website: 'https://gugacavalieri.github.io',
   education: [
     {
-      UniversityName: 'Universidade Federal de Minas Gerais (UFMG)',
+      UniversityName: 'Universidade Federal de Minas Gerais (UFMG), Brazil',
       specialization: 'Computer Science',
       MonthOfPassing: 'June',
       YearOfPassing: '2015',
@@ -150,24 +150,19 @@ const resumeData = {
   skillsDescription: '',
   skills: [
     {
-      skillname: 'NodeJS, Express, PostgreSQL, Redis, MySQL',
+      skillname: 'Git, Docker, Terraform, AWS, Kubernetes, Helm, CI/CD Automation',
       progress: 100,
-      years: '6+',
+      proficiency: 'Expert',
     },
     {
-      skillname: 'Docker, Terraform, AWS, Kubernetes, IaC, CI/CD Automation',
+      skillname: 'Javascript, NodeJS, Bash, Relational Databases',
       progress: 90,
-      years: '5+',
+      proficiency: 'Proficient',
     },
     {
-      skillname: 'IaC Security Automation, FinOps, Incident management',
+      skillname: 'Java, Python, Ruby, HTML, CSS, Redis, PHP, Android SDK',
       progress: 60,
-      years: '2+',
-    },
-    {
-      skillname: 'SRE Management',
-      progress: 40,
-      years: '1+',
+      proficiency: 'Prior Experience',
     },
   ],
 };
